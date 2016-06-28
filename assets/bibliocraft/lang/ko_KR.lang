@@ -5,25 +5,29 @@ language.code=ko_KR
 
 // Tab Names
 itemGroup.BiblioCraft=비블리오 크래프트[Bibliocraft]
-itemGroup.BiblioCraftLights=비블리오 크래프트 조명[Bibliocraft]
+itemGroup.BiblioCraftLights=비블리오 크래프트의 조명[Bibliocraft]
 item.paneler.panels=패널:
+
+//BiblioCraft v1.11.2 additions
+gui.recipe.disabled=사용할 수 없는 조합법입니다.
+stockcatalog.inventory.notfound=그 인벤토리의 이름을 찾을 수 없습니다.
 
 // BiblioCraft v1.11.0 additions
 item.StockroomCatalog.name=물품보관소 카탈로그
 jds.tileentitychest=프레임 체스트
-FramedChest.name=프레인 체스트
+FramedChest.name=프레임 체스트
 gui.catalog.close=닫기
-gui.catalog.count=갯구
-gui.catalog.names=아이템 /블럭 이름
+gui.catalog.count=갯수
+gui.catalog.names=아이템 / 블럭 이름
 screwgun.selected.chest1=첫번째 상자 선택.
 screwgun.selected.chest2=Attempting to attach/detach Chests.
 gui.left=왼쪽
 gui.right=오른쪽
 gui.craft=제작
-gui.recipe.crafted=제작완료
-gui.recipe.failed=제작실패
-gui.recipe.invalid=존재하지않는 조합법
-gui.recipe.missing=재료부족
+gui.recipe.crafted=제작이 완료되었습니다.
+gui.recipe.failed=제작에 실패했습니다.
+gui.recipe.invalid=존재하지 않는 조합법입니다.
+gui.recipe.missing=재료가 부족합니다.
 gui.recipe.wrong=제작에 실패했습니다. 존재하지않는 조합법이거나 재료가 부족합니다.
 
 gui.clock.pulse=신호
@@ -56,7 +60,7 @@ jds.tileentitypainting=페인팅
 
 // BiblioCraft 1.10 additions
 item.plumbline.depth=깊이
-item.PlumbLine.name=다림 줄
+item.PlumbLine.name=다림줄
 item.FramingSaw.name=프레임 톱
 item.FramingBoard.name=프레임 판자
 item.FramingSheet.name=프레임 시트
@@ -72,7 +76,7 @@ FramedPaneler.name=프레임 가구 작업대
 FramedClock.name=프레임 시계
 FrameBookcase.name=프레임 책장
 FramedWorkbench.name=프레임 작업대
-FramedSign.name=프레임 화려한 간판
+FramedSign.name=화려한 프레임 간판
 FramedShelf.name=프레임 선반
 FramedPotionShelf.name=프레임 포션선반
 FramedLabel.name=프레임 라벨
@@ -108,19 +112,19 @@ gui.atlas.atlas=지도
 
 gui.atlas.select.tt1=경유지 설정 모드
 gui.atlas.select.tt2=경유지 위
-gui.atlas.select.tt3=에서 왼클릭으로 선택
+gui.atlas.select.tt3=에서 왼쪽 클릭으로 선택
 gui.atlas.select.tt4=그곳은 경유지.
 gui.atlas.select.tt5=웅크리기 + Ctrl 그리고 맵위에서 경유지와 겹칠때
 gui.atlas.select.tt6=세계의 좌표를 보실수 있습니다.
 gui.atlas.select.tt7=왼쪽클릭 + Ctrl
-gui.atlas.select.tt8=시 모든 미니맵의 점을 선택하실 수 있습니다..
+gui.atlas.select.tt8=시 모든 미니맵의 점을 선택하실 수 있습니다.
 
 gui.atlas.edit.tt1=경유지 핀 편집 모드
 gui.atlas.edit.tt2=클릭해서 경유지를 수정
 gui.atlas.edit.tt3=선택된 핀의 이름과 색상
 gui.atlas.edit.tt4=혹은 선택된 핀 삭제
 gui.atlas.edit.tt5=빠르게 핀을 삭제하고 싶을때는,
-gui.atlas.edit.tt6=경유지를 웅크리기후 클릭.
+gui.atlas.edit.tt6=경유지를 웅크리기후 클릭하세요.
 
 gui.atlas.add.tt1=경유지 핀 추가모드
 gui.atlas.add.tt2=지도 어디에서나 클릭,
@@ -188,8 +192,8 @@ gui.paintpress.vanilla=바닐라
 gui.paintpress.custom=사용자 지정
 
 gui.painting.scale=크기
-gui.painting.resolution=Resolution
-gui.painting.aspectRatio=Aspect Ratio
+gui.painting.resolution=해상도(Resolution)
+gui.painting.aspectRatio=종횡비
 gui.painting.size=그림의 크기
 gui.painting.rotation=각도
 gui.painting.corner=코너
@@ -256,12 +260,12 @@ swordpedestal.green=녹색 테두리
 swordpedestal.red=빨간색 테두리
 swordpedestal.black=검은색 테두리
 
-OakSign.name=참나무 화려한 간판
-SpruceSign.name=가문비나무 화려한 간판
-BirchSign.name=자작나무 화려한 간판
-JungleSign.name=정글 나무 화려한 간판
-AcaciaSign.name=아카시아 나무 화려한 간판
-OldOakSign.name=검은 참나무 화려한 간판
+OakSign.name=화려한 참나무 간판
+SpruceSign.name=화려한 가문비나무 간판
+BirchSign.name=화려한 자작나무 간판
+JungleSign.name=화려한 정글 나무 간판
+AcaciaSign.name=화려한 아카시아 나무 간판
+OldOakSign.name=화려한 검은 참나무 간판
 
 OakWorkbench.name=참나무 작업대
 SpruceWorkbench.name=가문비나무 작업대
@@ -270,7 +274,7 @@ JungleWorkbench.name=정글 나무 작업대
 AcaciaWorkbench.name=아카시아 나무 작업대
 OldOakWorkbench.name=검은 참나무 작업대
 
-tile.BiblioBell.name=데스크벨
+tile.BiblioBell.name=탁상종
 
 item.RecipeBook.name=빈 레시피 책
 item.SlottedBook.name=구멍난 책
@@ -426,7 +430,7 @@ plate.notValid=유효하지 않음
 typesetting.requires=요구 사항 :
 typesetting.levels=등급
 typesetting.chase=체이스
-typesetting.bookSelect=책을 선택하세요
+typesetting.bookSelect=책을 선택하세요.
 print.ink=잉크
 print.book=책
 screwgun.firstSeat=시트를 선택합니다
@@ -492,22 +496,22 @@ BirchSeat.name=자작나무 의자
 JungleSeat.name=정글 나무 의자
 
 //lights
-whiteLantern.name=황금랜턴
-lightGrayLantern.name=황금랜턴
-grayLantern.name=황금랜턴
-blackLantern.name=황금랜턴
-redLantern.name=황금랜턴
-orangeLantern.name=황금랜턴
-yellowLantern.name=황금랜턴
-limeLantern.name=황금랜턴
-greenLantern.name=황금랜턴
-cyanLantern.name=황금랜턴
-lightBlueLantern.name=황금랜턴
-blueLantern.name=황금랜턴
-purpleLantern.name=황금랜턴
-magentaLantern.name=황금랜턴
-pinkLantern.name=황금랜턴
-brownLantern.name=황금랜턴
+whiteLantern.name=황금 랜턴
+lightGrayLantern.name=황금 랜턴
+grayLantern.name=황금 랜턴
+blackLantern.name=황금 랜턴
+redLantern.name=황금 랜턴
+orangeLantern.name=황금 랜턴
+yellowLantern.name=황금 랜턴
+limeLantern.name=황금 랜턴
+greenLantern.name=황금 랜턴
+cyanLantern.name=황금 랜턴
+lightBlueLantern.name=황금 랜턴
+blueLantern.name=황금 랜턴
+purpleLantern.name=황금 랜턴
+magentaLantern.name=황금 랜턴
+pinkLantern.name=황금 랜턴
+brownLantern.name=황금 랜턴
 
 whiteLamp.name=화려한 조명
 lightGrayLamp.name=화려한 조명
